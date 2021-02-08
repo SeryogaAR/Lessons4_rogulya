@@ -33,3 +33,15 @@ for index in my_indexes:
 
 ###############
 
+my_indexes = [0, 1, 2, 3, 4, 5]
+my_list_1 = "qwerty"
+my_list_2 = "123456"
+for index in my_indexes:
+    print(my_list_1[index], my_list_2[index])
+
+#################
+
+my_string = '0123456789'
+for symb_1 in my_string:
+	for symb_2 in my_string:
+		print(list([symb_1 + symb_2]))
