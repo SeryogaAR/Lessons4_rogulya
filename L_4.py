@@ -42,6 +42,8 @@ for index in my_indexes:
 #################
 
 my_string = '0123456789'
+result = []
 for symb_1 in my_string:
-	for symb_2 in my_string:
-		print(list([symb_1 + symb_2]))
+    for symb_2 in my_string:
+        result.append(int(symb_1 + symb_2))
+print(result)
